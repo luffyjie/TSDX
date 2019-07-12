@@ -1,0 +1,49 @@
+{
+    "msg": "success",
+    "ret": 0,
+    "cardsModel": {
+        "cardsCode": "1001",
+        "nameCN": "目标",
+        "nameEN": "About Aim",
+        "describe": "很多单词都有目标的意思，区别呢？",
+        "totalCount": "3",
+        "cardsList": [
+            {
+                "codeNum": "1001-1",
+                "spell": "aim",
+                "phonics": "US [eɪm] UK [eɪm]",
+                "phonicsAudio": "1001-1.m4a",
+                "mean": "n.目的;目标;瞄准 v.目的是;旨在;瞄准;对准n.目的;目标;瞄准 v.目的是;旨在;瞄准;对准n.目的;目标;瞄准 v.目的是;旨在;瞄准;对准n.目的;目标;瞄准 v.目的是;旨在;瞄准;对准",
+                "meanSub": "从本义“靶子”引申而来，侧重比较具体而明确的目标，但常指短期目标从本义“靶子”引申而来，侧重比较具体而明确的目标，但常指短期目标从本义“靶子”引申而来，侧重比较具体而明确的目标，但常指短期目标",
+                "sentenceEN": "She went to London with the aim of finding a job.She went to London with the aim of finding a job.She went to London with the aim of finding a job.She went to London with the aim of finding a job.",
+                "sentenceCN": "她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。她去伦敦是为了找工作。",
+                "sentenceAudio": "1001-1.m4a",
+                "imageSource": "1001-1.jpg"
+            },
+            {
+                "codeNum": "1001-2",
+                "spell": "aim",
+                "phonics": "US [eɪm] UK [eɪm]",
+                "phonicsAudio": "1001-1.m4a",
+                "mean": "n.目的;目标;瞄准 v.目的是;旨在;瞄准;对准",
+                "meanSub": "从本义“靶子”引申而来，侧重比较具体而明确的目标，但常指短期目标",
+                "sentenceEN": "She went to London with the aim of finding a job.",
+                "sentenceCN": "她去伦敦是为了找工作。",
+                "sentenceAudio": "1001-1.m4a",
+                "imageSource": "1001-1.jpg"
+            },
+            {
+                "codeNum": "1001-3",
+                "spell": "aim",
+                "phonics": "US [eɪm] UK [eɪm]",
+                "phonicsAudio": "1001-1.m4a",
+                "mean": "n.目的;目标;瞄准 v.目的是;旨在;瞄准;对准",
+                "meanSub": "",
+                "sentenceEN": "",
+                "sentenceCN": "",
+                "sentenceAudio": "",
+                "imageSource": "1001-1.jpg"
+            }
+        ]
+    }
+}

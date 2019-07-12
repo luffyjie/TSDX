@@ -1,0 +1,131 @@
+{
+    "msg": "success",
+    "ret": 0,
+    "sections": ["personal", "origin", "basic", "professional", "purpose"],
+    "rowData": {
+        "personal": {
+            "list": [{
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程API2",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程3",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程4",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            }]
+        },
+        "origin": {
+            "list": [{
+                "icon": "4.jpg",
+                "title": "英语的发展历史",
+                "subtitle": "英语也是古老的语言",
+                "sourcetype": "LHTML",
+                "url": "英语的发展历史.HTML"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "2.jpg",
+                "title": "我的英语学习历程11111",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            }]
+        },
+        "basic": {
+            "list": [{
+                "icon": "2.jpg",
+                "title": "24个字母",
+                "subtitle": "",
+                "sourcetype": "API",
+                "url": "https://blog.csdn.net/heikefangxian23/article/details/49659479"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            }]
+        },
+        "professional":{
+            "list":
+            [{
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            }]
+        },
+        "purpose": {
+            "list":
+            [{
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            },
+            {
+                "icon": "6.jpg",
+                "title": "我的英语学习历程",
+                "subtitle": "学渣的阴影，在过了很多年还做梦天天考试",
+                "sourcetype": "LTEXT",
+                "url": "我的英语学习历程.txt"
+            }]
+        }
+    }
+}
