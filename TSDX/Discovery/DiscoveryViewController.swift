@@ -27,7 +27,6 @@ class DiscoveryViewController: BasicViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "发现"
         initUI()
         setupPullToRefresh()
     }

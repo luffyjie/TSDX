@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TSDX
+
+  Created by zwj on 2019/10/7.
+  Copyright © 2019 TSDX. All rights reserved.
+*/
+"home" = "home";
+"vocabulary" = "vocabulary";
+"discovery" = "discovery";
+"mine" = "mine";

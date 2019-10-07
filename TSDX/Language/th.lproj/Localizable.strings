@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TSDX
+
+  Created by zwj on 2019/10/7.
+  Copyright © 2019 TSDX. All rights reserved.
+*/
+"home" = "บ้านคือบ้าน";
+"vocabulary" = "คำศัพท์สำหรับ";
+"discovery" = "การค้นพบคำศัพท์";
+"mine" = "มันเป็นของฉัน";

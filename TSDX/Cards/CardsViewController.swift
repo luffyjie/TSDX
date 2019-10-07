@@ -35,8 +35,6 @@ class CardsViewController: BasicViewController, UICollectionViewDataSource, UICo
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        title = "词汇"
         initUI()
         refreshData()
         setupPullToRefresh()

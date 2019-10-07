@@ -32,7 +32,7 @@ class HomeViewController: BasicViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "首页"
+        navigationItem.title = "热烈欢迎"
         initUI()
         showPageStatus(.loading)
         let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)

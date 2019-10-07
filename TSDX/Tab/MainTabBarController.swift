@@ -20,23 +20,28 @@ class MainTabBarController: ESTabBarController {
         let discovery = DiscoveryViewController()
         let mine = MineViewController()
         
+        let homeText = NSLocalizedString("home", comment: "")
+        let vocabularyText = NSLocalizedString("vocabulary", comment: "")
+        let discoveryText = NSLocalizedString("discovery", comment: "")
+        let mineText = NSLocalizedString("mine", comment: "")
+
         home.tabBarItem = ESTabBarItem.init(BasicTabBarContentView(),
-                                            title: "首页",
+                                            title: homeText,
                                             image: UIImage(named: "home"),
                                     selectedImage: UIImage(named: "home_1"))
         
         cards.tabBarItem = ESTabBarItem.init(BasicTabBarContentView(),
-                                                 title: "单词",
+                                                 title: vocabularyText,
                                                  image: UIImage(named: "cardboard"),
                                                  selectedImage: UIImage(named: "cardboard_1"))
         
         discovery.tabBarItem = ESTabBarItem.init(BasicTabBarContentView(),
-                                                 title: "发现",
+                                                 title: discoveryText,
                                                  image: UIImage(named: "find"),
                                         selectedImage: UIImage(named: "find_1"))
         
         mine.tabBarItem = ESTabBarItem.init(BasicTabBarContentView(),
-                                          title: "我的",
+                                          title: mineText,
                                           image: UIImage(named: "me"),
                                   selectedImage: UIImage(named: "me_1"))
         
