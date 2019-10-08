@@ -72,6 +72,7 @@
 		FF388E19234AEC1B00C3E334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		FF388E1B234AED3B00C3E334 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF388E1C234AED3C00C3E334 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF388E2C234B0C6000C3E334 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FF8206EB22796AD1006ED930 /* TSDX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSDX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8206EE22796AD1006ED930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF8206F522796AD2006ED930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,6 +166,14 @@
 			path = Language;
 			sourceTree = "<group>";
 		};
+		FF388E2B234B0C2C00C3E334 /* PlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				FF388E2C234B0C6000C3E334 /* MyPlayground.playground */,
+			);
+			path = PlayGround;
+			sourceTree = "<group>";
+		};
 		FF8206E222796AD1006ED930 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +195,7 @@
 		FF8206ED22796AD1006ED930 /* TSDX */ = {
 			isa = PBXGroup;
 			children = (
+				FF388E2B234B0C2C00C3E334 /* PlayGround */,
 				FF388E0A234AEA5800C3E334 /* Language */,
 				FFFF396222CC4C370073F71E /* UItest */,
 				FFDC283E22841D730042FB34 /* Basic */,
