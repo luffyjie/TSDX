@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8123D924235C37C200998B30 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123D921235C37C200998B30 /* UIColorExtension.swift */; };
+		8123D925235C37C200998B30 /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123D922235C37C200998B30 /* UIColorInputError.swift */; };
+		8123D926235C37C200998B30 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123D923235C37C200998B30 /* StringExtension.swift */; };
+		81C8C20A235C1E1D00D491B2 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8C209235C1E1D00D491B2 /* UIColor+Ext.swift */; };
+		81DE8F48235C17A0006CEBD0 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DE8F47235C17A0006CEBD0 /* StackViewController.swift */; };
 		BB551D93684748309B9E4B08 /* Pods_TSDX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023BF4FAC05D459E48D099C5 /* Pods_TSDX.framework */; };
 		FF388E11234AEC0600C3E334 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF388E13234AEC0600C3E334 /* Localizable.strings */; };
 		FF388E16234AEC1500C3E334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF388E18234AEC1500C3E334 /* InfoPlist.strings */; };
@@ -65,6 +70,12 @@
 /* Begin PBXFileReference section */
 		023BF4FAC05D459E48D099C5 /* Pods_TSDX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSDX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA303BE133294F2E47A0F68 /* Pods-TSDX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSDX.debug.xcconfig"; path = "Target Support Files/Pods-TSDX/Pods-TSDX.debug.xcconfig"; sourceTree = "<group>"; };
+		8123D921235C37C200998B30 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8123D922235C37C200998B30 /* UIColorInputError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorInputError.swift; sourceTree = "<group>"; };
+		8123D923235C37C200998B30 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		81C8C209235C1E1D00D491B2 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		81DE8F47235C17A0006CEBD0 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		81E1D07D2352D03800B0E31B /* TSDX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TSDX.entitlements; sourceTree = "<group>"; };
 		E00E357713D2F83CC2A8559F /* Pods-TSDX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSDX.release.xcconfig"; path = "Target Support Files/Pods-TSDX/Pods-TSDX.release.xcconfig"; sourceTree = "<group>"; };
 		FF388E12234AEC0600C3E334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FF388E14234AEC0D00C3E334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -72,7 +83,6 @@
 		FF388E19234AEC1B00C3E334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		FF388E1B234AED3B00C3E334 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF388E1C234AED3C00C3E334 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FF388E2C234B0C6000C3E334 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FF8206EB22796AD1006ED930 /* TSDX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSDX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8206EE22796AD1006ED930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF8206F522796AD2006ED930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,6 +158,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8123D920235C37C200998B30 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8123D921235C37C200998B30 /* UIColorExtension.swift */,
+				8123D922235C37C200998B30 /* UIColorInputError.swift */,
+				8123D923235C37C200998B30 /* StringExtension.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		81C8C20B235C238400D491B2 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				81DE8F47235C17A0006CEBD0 /* StackViewController.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		B034E8E984E3E2F314311890 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,14 +192,6 @@
 				FF388E13234AEC0600C3E334 /* Localizable.strings */,
 			);
 			path = Language;
-			sourceTree = "<group>";
-		};
-		FF388E2B234B0C2C00C3E334 /* PlayGround */ = {
-			isa = PBXGroup;
-			children = (
-				FF388E2C234B0C6000C3E334 /* MyPlayground.playground */,
-			);
-			path = PlayGround;
 			sourceTree = "<group>";
 		};
 		FF8206E222796AD1006ED930 = {
@@ -195,7 +215,8 @@
 		FF8206ED22796AD1006ED930 /* TSDX */ = {
 			isa = PBXGroup;
 			children = (
-				FF388E2B234B0C2C00C3E334 /* PlayGround */,
+				81E1D07D2352D03800B0E31B /* TSDX.entitlements */,
+				81C8C20B235C238400D491B2 /* Stack */,
 				FF388E0A234AEA5800C3E334 /* Language */,
 				FFFF396222CC4C370073F71E /* UItest */,
 				FFDC283E22841D730042FB34 /* Basic */,
@@ -218,10 +239,12 @@
 		FFB008F32298EB78000DBCB3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				8123D920235C37C200998B30 /* UIColor */,
 				FFB00908229CF8CB000DBCB3 /* LoadingAnimator */,
 				FFB008F42298EBFF000DBCB3 /* PullToRefresh */,
 				FFB00901229A39E5000DBCB3 /* TSDXDevice.swift */,
 				FFDC27FC227DB82B0042FB34 /* Const.swift */,
+				81C8C209235C1E1D00D491B2 /* UIColor+Ext.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -512,52 +535,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TSDX/Pods-TSDX-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
-				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
-				"${BUILT_PRODUCTS_DIR}/GDPerformanceView-Swift/GDPerformanceView_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
-				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TSDX/Pods-TSDX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedCollectionViewLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDPerformanceView_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Timepiece.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TSDX/Pods-TSDX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -578,6 +560,7 @@
 				FFDC28562287D57C0042FB34 /* CardsListViewModel.swift in Sources */,
 				FFDC284622866DFE0042FB34 /* CardsAPI.swift in Sources */,
 				FFDC27EE227BFB6E0042FB34 /* BasicViewController.swift in Sources */,
+				81C8C20A235C1E1D00D491B2 /* UIColor+Ext.swift in Sources */,
 				FFB00902229A39E5000DBCB3 /* TSDXDevice.swift in Sources */,
 				FFDC27F4227BFC510042FB34 /* CardsViewController.swift in Sources */,
 				FFB008FE2298EBFF000DBCB3 /* DefaultViewAnimator.swift in Sources */,
@@ -586,16 +569,20 @@
 				FFE617BF22B61C1100E8F389 /* WeexImageDownloader.swift in Sources */,
 				FFB008FD2298EBFF000DBCB3 /* State.swift in Sources */,
 				FFB008FB2298EBFF000DBCB3 /* DefaultRefreshView.swift in Sources */,
+				8123D926235C37C200998B30 /* StringExtension.swift in Sources */,
 				FFDC281522828B0B0042FB34 /* HomeAPI.swift in Sources */,
 				FFB008FF2298EBFF000DBCB3 /* UIScrollView+PullToRefresh.swift in Sources */,
 				FF8206EF22796AD1006ED930 /* AppDelegate.swift in Sources */,
 				FFDC28542287BB2C0042FB34 /* CardsListViewController.swift in Sources */,
+				81DE8F48235C17A0006CEBD0 /* StackViewController.swift in Sources */,
 				FFDC27F2227BFC1E0042FB34 /* DiscoveryViewController.swift in Sources */,
 				FFB009002298EBFF000DBCB3 /* RefreshViewAnimator.swift in Sources */,
+				8123D924235C37C200998B30 /* UIColorExtension.swift in Sources */,
 				FFDC280222801D670042FB34 /* HomeModel.swift in Sources */,
 				FFE617B422B5E76E00E8F389 /* WeexViewController.swift in Sources */,
 				FFDC27FF227E9F4D0042FB34 /* CardsBoardViewController.swift in Sources */,
 				FFFF396422CC4CA00073F71E /* FullScreemViewController.swift in Sources */,
+				8123D925235C37C200998B30 /* UIColorInputError.swift in Sources */,
 				FFB0090A229CF93E000DBCB3 /* TSDXPageStatusView.swift in Sources */,
 				FFDC27F6227BFC6C0042FB34 /* MineViewController.swift in Sources */,
 				FFB008FC2298EBFF000DBCB3 /* PullToRefresh.swift in Sources */,
@@ -759,6 +746,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TSDX/TSDX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RS359C4BY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -784,6 +772,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TSDX/TSDX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RS359C4BY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;

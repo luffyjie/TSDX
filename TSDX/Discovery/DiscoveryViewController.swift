@@ -88,7 +88,8 @@ extension DiscoveryViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         hidesBottomBarWhenPushed = true
-        let weex = WeexViewController()
-        self.navigationController?.pushViewController(weex, animated: true)
+//        let weex = WeexViewController()
+//        self.navigationController?.pushViewController(weex, animated: true)
+        navigationController?.pushViewController(StackViewController(), animated: true)
     }
 }

@@ -54,8 +54,9 @@ class MainTabBarController: ESTabBarController {
         delegate = self
         
         //test
-        mine.tabBarItem.badgeValue = "2"
-        self.tabBar.isTranslucent = false
+        mine.tabBarItem.badgeValue = "3"
+        tabBar.isTranslucent = false
+        selectedIndex = 2
     }
 }
 

@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 
@@ -21,7 +21,7 @@ target 'TSDX' do
   pod 'SKPhotoBrowser', '~> 6.1.0'
   pod 'CryptoSwift'
   pod 'WeexSDK', '0.24.0'
-
 #  pod 'ImageViewer'
-
+  pod "Atributika", '4.9.0'
+  
 end
